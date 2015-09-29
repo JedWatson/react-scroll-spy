@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-spy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React.js mixin for updating state based on the window's scroll position",
   "main": "lib/ScrollSpy.js",
   "author": "Jed Watson",
