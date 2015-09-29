@@ -1,0 +1,46 @@
+{
+  "name": "react-scroll-spy",
+  "version": "0.0.0",
+  "description": "React.js mixin for updating state based on the window's scroll position",
+  "main": "lib/ScrollSpy.js",
+  "author": "Jed Watson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/react-scroll-spy.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.4.3",
+    "eslint-plugin-react": "^3.4.1",
+    "gulp": "^3.9.0",
+    "react": "^0.13.3",
+    "react-component-gulp-tasks": "^0.7.1"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0 || ^0.14.0-beta"
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "build:lib": "gulp build:lib",
+    "bump": "gulp bump",
+    "lint": "eslint ./",
+    "prepublish": "npm run build:lib",
+    "publish:npm": "gulp publish:npm",
+    "publish:tag": "gulp publish:tag",
+    "release": "gulp release",
+    "watch": "gulp watch:lib"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "ui",
+    "scroll",
+    "spy",
+    "scrollspy",
+    "mixin"
+  ]
+}
